@@ -1,0 +1,5 @@
+target/
+*.class
+.idea/
+*.iml
+Assignment 2.pdf
