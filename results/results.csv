@@ -1,0 +1,57 @@
+workload,structure,position,n,m,average_time_ns,average_accesses,average_movements,average_comparisons,theory
+random_access,DynamicArray,random,100,10000,312120.0,10000.0,0.0,0.0,Theta(m)
+search,DynamicArray,random,100,1000,299640.0,74209.0,0.0,74209.0,Theta(m*n) average
+insert,DynamicArray,front,100,1000,1695660.0,0.0,601620.0,0.0,Theta(m*n)
+remove,DynamicArray,front,100,1000,175540.0,1000.0,49500.0,0.0,Theta(m*n)
+insert,DynamicArray,middle,100,1000,425680.0,0.0,551620.0,0.0,Theta(m*n)
+remove,DynamicArray,middle,100,1000,34600.0,1000.0,24500.0,0.0,Theta(m*n)
+random_access,LinkedList,random,100,10000,738960.0,253204.0,0.0,0.0,Theta(m*n)
+search,LinkedList,random,100,1000,348720.0,74209.0,0.0,74209.0,Theta(m*n) average
+insert,LinkedList,front,100,1000,87780.0,1000.0,1000.0,0.0,Theta(m)
+remove,LinkedList,front,100,1000,54780.0,1000.0,1000.0,0.0,Theta(m)
+insert,LinkedList,middle,100,1000,80000.0,50999.0,1000.0,0.0,Theta(m*n)
+remove,LinkedList,middle,100,1000,44440.0,25500.0,1000.0,0.0,Theta(m*n)
+heap_insert,MinHeap,na,100,100,13900.0,0.0,356.0,203.0,O(n*log n) worst
+heap_extract,MinHeap,na,100,100,29320.0,0.0,510.0,857.0,O(n*log n) worst
+random_access,DynamicArray,random,1000,10000,56140.0,10000.0,0.0,0.0,Theta(m)
+search,DynamicArray,random,1000,1000,854380.0,714678.0,0.0,714678.0,Theta(m*n) average
+insert,DynamicArray,front,1000,1000,344080.0,0.0,1501780.0,0.0,Theta(m*n)
+remove,DynamicArray,front,1000,1000,186040.0,1000.0,499500.0,0.0,Theta(m*n)
+insert,DynamicArray,middle,1000,1000,245280.0,0.0,1001780.0,0.0,Theta(m*n)
+remove,DynamicArray,middle,1000,1000,141740.0,1000.0,249500.0,0.0,Theta(m*n)
+random_access,LinkedList,random,1000,10000,2963740.0,2492748.0,0.0,0.0,Theta(m*n)
+search,LinkedList,random,1000,1000,1536840.0,714678.0,0.0,714678.0,Theta(m*n) average
+insert,LinkedList,front,1000,1000,30440.0,1000.0,1000.0,0.0,Theta(m)
+remove,LinkedList,front,1000,1000,27400.0,1000.0,1000.0,0.0,Theta(m)
+insert,LinkedList,middle,1000,1000,668760.0,500999.0,1000.0,0.0,Theta(m*n)
+remove,LinkedList,middle,1000,1000,339440.0,250500.0,1000.0,0.0,Theta(m*n)
+heap_insert,MinHeap,na,1000,1000,40620.0,0.0,3474.0,2198.0,O(n*log n) worst
+heap_extract,MinHeap,na,1000,1000,122260.0,0.0,8342.0,14993.0,O(n*log n) worst
+random_access,DynamicArray,random,10000,10000,356700.0,10000.0,0.0,0.0,Theta(m)
+search,DynamicArray,random,10000,1000,3430400.0,7137728.0,0.0,7137728.0,Theta(m*n) average
+insert,DynamicArray,front,10000,1000,2694780.0,0.0,10510740.0,0.0,Theta(m*n)
+remove,DynamicArray,front,10000,1000,3221020.0,1000.0,9499500.0,0.0,Theta(m*n)
+insert,DynamicArray,middle,10000,1000,1240820.0,0.0,5510740.0,0.0,Theta(m*n)
+remove,DynamicArray,middle,10000,1000,1597360.0,1000.0,4499500.0,0.0,Theta(m*n)
+random_access,LinkedList,random,10000,10000,30898060.0,25118522.0,0.0,0.0,Theta(m*n)
+search,LinkedList,random,10000,1000,12528580.0,7137728.0,0.0,7137728.0,Theta(m*n) average
+insert,LinkedList,front,10000,1000,26960.0,1000.0,1000.0,0.0,Theta(m)
+remove,LinkedList,front,10000,1000,24720.0,1000.0,1000.0,0.0,Theta(m)
+insert,LinkedList,middle,10000,1000,6108820.0,5000999.0,1000.0,0.0,Theta(m*n)
+remove,LinkedList,middle,10000,1000,5422020.0,4500500.0,1000.0,0.0,Theta(m*n)
+heap_insert,MinHeap,na,10000,10000,331640.0,0.0,32825.0,22585.0,O(n*log n) worst
+heap_extract,MinHeap,na,10000,10000,691880.0,0.0,116671.0,216482.0,O(n*log n) worst
+random_access,DynamicArray,random,100000,10000,65740.0,10000.0,0.0,0.0,Theta(m)
+search,DynamicArray,random,100000,1000,30034580.0,70849669.0,0.0,70849669.0,Theta(m*n) average
+insert,DynamicArray,front,100000,1000,20168600.0,0.0,100500500.0,0.0,Theta(m*n)
+remove,DynamicArray,front,100000,1000,30215600.0,1000.0,99499500.0,0.0,Theta(m*n)
+insert,DynamicArray,middle,100000,1000,10176200.0,0.0,50500500.0,0.0,Theta(m*n)
+remove,DynamicArray,middle,100000,1000,15009680.0,1000.0,49499500.0,0.0,Theta(m*n)
+random_access,LinkedList,random,100000,10000,327809980.0,250540042.0,0.0,0.0,Theta(m*n)
+search,LinkedList,random,100000,1000,122528840.0,70849669.0,0.0,70849669.0,Theta(m*n) average
+insert,LinkedList,front,100000,1000,17400.0,1000.0,1000.0,0.0,Theta(m)
+remove,LinkedList,front,100000,1000,10220.0,1000.0,1000.0,0.0,Theta(m)
+insert,LinkedList,middle,100000,1000,66124680.0,50000999.0,1000.0,0.0,Theta(m*n)
+remove,LinkedList,middle,100000,1000,57999020.0,49500500.0,1000.0,0.0,Theta(m*n)
+heap_insert,MinHeap,na,100000,100000,1832580.0,0.0,392965.0,229125.0,O(n*log n) worst
+heap_extract,MinHeap,na,100000,100000,7356800.0,0.0,1500867.0,2831787.0,O(n*log n) worst
